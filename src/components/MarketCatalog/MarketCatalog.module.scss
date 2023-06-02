@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
+
+  & > div:not(:last-child) {
+    margin-bottom: 10px;
+
+    @media (min-width: 900px) {
+      margin-bottom: 0;
+      margin-right: 10px;
+    }
+  }
+}

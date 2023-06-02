@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.img {
+  height: fit-content;
+  width: 30%;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: block;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
