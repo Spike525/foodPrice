@@ -6,7 +6,7 @@ import { Button } from "@mui/material";
 import styles from "./MarketPrice.module.scss";
 import QtySelector from "../QtySelector/QtySelector.tsx";
 
-import { MARKETS } from "../../index";
+import { MARKETS } from "../../market.helper";
 
 export interface IMarketPrice {
   market: string;
