@@ -1,0 +1,298 @@
+[
+    {
+        "name": "Пиво Corona Extra світле",
+        "id": 1,
+        "image": "https://content.silpo.ua/sku/ecommerce/83/480x480wwm/839544_480x480wwm_33e510c0-349c-3f3c-c5f1-29e63b74dc26.png",
+        "marketIDs": [
+            {
+                "name": "silpo",
+                "id": "839544"
+            },
+            {
+                "name": "fora",
+                "id": "839544"
+            },
+            {
+                "name": "novus",
+                "id": "369374"
+            },
+            {
+                "name": "atb",
+                "id": "155958"
+            },
+            {
+                "name": "megamarket",
+                "id": "00000075041670"
+            }
+        ],
+        "prices": [
+            {
+                "market": "silpo",
+                "prices": {
+                    "oldPrice": 53.49,
+                    "currentPrice": 53.49
+                }
+            },
+            {
+                "market": "fora",
+                "prices": {
+                    "oldPrice": 52.49,
+                    "currentPrice": 39.9
+                }
+            },
+            {
+                "market": "novus",
+                "prices": {
+                    "oldPrice": "53.49",
+                    "currentPrice": "53.49"
+                }
+            },
+            {
+                "market": "atb",
+                "prices": {
+                    "oldPrice": 63.2,
+                    "currentPrice": 51.8
+                }
+            },
+            {
+                "market": "megamarket",
+                "prices": {
+                    "oldPrice": 54,
+                    "currentPrice": 54
+                }
+            }
+        ]
+    },
+    {
+        "name": "Молоко Яготинське для дітей безлактозне ультрапастеризоване",
+        "id": 2,
+        "image": "https://content.fora.ua/sku/ecommerce/77/480x480fora/777701_480x480fora_7838bef7-e95f-11bd-fb5b-81fd7abb3a38.png",
+        "marketIDs": [
+            {
+                "name": "silpo",
+                "id": "777701"
+            },
+            {
+                "name": "fora",
+                "id": "777701"
+            },
+            {
+                "name": "novus",
+                "id": "333204"
+            },
+            {
+                "name": "atb",
+                "id": "152064"
+            },
+            {
+                "name": "megamarket",
+                "id": "04823005207344"
+            }
+        ],
+        "prices": [
+            {
+                "market": "silpo",
+                "prices": {
+                    "oldPrice": 56.99,
+                    "currentPrice": 56.99
+                }
+            },
+            {
+                "market": "fora",
+                "prices": {
+                    "oldPrice": 53.49,
+                    "currentPrice": 53.49
+                }
+            },
+            {
+                "market": "novus",
+                "prices": {
+                    "oldPrice": "54.99",
+                    "currentPrice": "46.99"
+                }
+            },
+            {
+                "market": "atb",
+                "prices": {
+                    "oldPrice": 53.8,
+                    "currentPrice": 53.8
+                }
+            },
+            {
+                "market": "megamarket",
+                "prices": {
+                    "oldPrice": 59.9,
+                    "currentPrice": 59.9
+                }
+            }
+        ]
+    },
+    {
+        "name": "Marlborough Sun Sauvignon Blanc",
+        "id": 3,
+        "image": "https://content.silpo.ua/sku/ecommerce/71/480x480wwm/719644_480x480wwm_e18fd484-0594-43ca-36d2-755eafc4d92c.png",
+        "marketIDs": [
+            {
+                "name": "silpo",
+                "id": "719644"
+            },
+            {
+                "name": "atb",
+                "id": "126951"
+            },
+            {
+                "name": "megamarket",
+                "id": "09418076001394"
+            }
+        ],
+        "prices": [
+            {
+                "market": "silpo",
+                "prices": {
+                    "oldPrice": 570.18,
+                    "currentPrice": 570.18
+                }
+            },
+            {
+                "market": "atb",
+                "prices": {
+                    "oldPrice": 0,
+                    "currentPrice": 0
+                }
+            },
+            {
+                "market": "megamarket",
+                "prices": {
+                    "oldPrice": 536.3,
+                    "currentPrice": 419.9
+                }
+            }
+        ]
+    },
+    {
+        "name": "Крабові палички Vici «Сніговий краб» охолоджені",
+        "id": 4,
+        "image": "https://content.silpo.ua/sku/ecommerce/25/480x480wwm/259131_480x480wwm_9d766541-d01f-ccac-220b-b1adaea2dba1.png",
+        "marketIDs": [
+            {
+                "name": "silpo",
+                "id": "259131"
+            },
+            {
+                "name": "novus",
+                "id": "4040"
+            },
+            {
+                "name": "megamarket",
+                "id": "04770190379267"
+            }
+        ],
+        "prices": [
+            {
+                "market": "silpo",
+                "prices": {
+                    "oldPrice": 199,
+                    "currentPrice": 199
+                }
+            },
+            {
+                "market": "novus",
+                "prices": {
+                    "oldPrice": "199.00",
+                    "currentPrice": "199.00"
+                }
+            },
+            {
+                "market": "megamarket",
+                "prices": {
+                    "oldPrice": 192.8,
+                    "currentPrice": 134.3
+                }
+            }
+        ]
+    },
+    {
+        "name": "Сир Комо Голландія твердий нарізаний скибочками 45% 150г",
+        "id": 5,
+        "image": "https://novus.online/uploads/0/2587-4820039802408.png",
+        "marketIDs": [
+            {
+                "name": "novus",
+                "id": "114096"
+            },
+            {
+                "name": "megamarket",
+                "id": "04820039802408"
+            }
+        ],
+        "prices": [
+            {
+                "market": "novus",
+                "prices": {
+                    "oldPrice": "71.99",
+                    "currentPrice": "71.99"
+                }
+            },
+            {
+                "market": "megamarket",
+                "prices": {
+                    "oldPrice": 63,
+                    "currentPrice": 63
+                }
+            }
+        ]
+    },
+    {
+        "name": "Шоколад молочний Корона Max Fun з вибуховою карамеллю мармеладом та печивом 160г",
+        "id": 6,
+        "image": "https://img2.zakaz.ua/src.1626969331.ad72436478c_2021-07-23_Yulia_G/src.1626969331.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.350nowm.jpg.350x.jpg",
+        "marketIDs": [
+            {
+                "name": "novus",
+                "id": "246231"
+            },
+            {
+                "name": "megamarket",
+                "id": "07622201797942"
+            },
+            {
+                "name": "silpo",
+                "id": "918395"
+            },
+            {
+                "name": "atb",
+                "id": "162943"
+            }
+        ],
+        "prices": [
+            {
+                "market": "novus",
+                "prices": {
+                    "oldPrice": "78.99",
+                    "currentPrice": "78.99"
+                }
+            },
+            {
+                "market": "megamarket",
+                "prices": {
+                    "oldPrice": 77.1,
+                    "currentPrice": 77.1
+                }
+            },
+            {
+                "market": "silpo",
+                "prices": {
+                    "oldPrice": 78.99,
+                    "currentPrice": 71.9
+                }
+            },
+            {
+                "market": "atb",
+                "prices": {
+                    "oldPrice": 67.9,
+                    "currentPrice": 55.8
+                }
+            }
+        ]
+    }
+]
