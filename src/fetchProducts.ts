@@ -1,4 +1,6 @@
 import axios from "axios";
+import { fetchProductCatalog } from "./firebase";
+import { MARKETS } from "./market.helper.js";
 
 const processNOVUSdata = (data) => {
   const isAvailable = data.product.count;
@@ -39,7 +41,6 @@ const processMEGAMARKETdata = (data) => {
   };
 };
 const processFOZZYdata = (data) => {
-  console.log("silpo DATA ->", data);
   const isAvailable = data.items.length;
 
   return {
@@ -78,7 +79,7 @@ const processObj = {
   fora: processFOZZYdata,
 };
 
-export const fetchProductPrices = async (productArr, marketsData) => {
+const fetchProductPrices = async (productArr, marketsData) => {
   const res = await Promise.all(
     productArr.map(async (product) => {
       const marketPrices = await Promise.all(
@@ -93,7 +94,11 @@ export const fetchProductPrices = async (productArr, marketsData) => {
               break;
             case "silpo":
             case "fora":
-              data = await fetchFOZZYProductData(market.name, market.id, marketsData);
+              data = await fetchFOZZYProductData(
+                market.name,
+                market.id,
+                marketsData
+              );
               break;
             default:
               console.log("Sorry, can not find API for " + market.name + ".");
@@ -114,4 +119,23 @@ export const fetchProductPrices = async (productArr, marketsData) => {
     })
   );
   return res;
+};
+
+export const getProductData = async (useMockData?, useMockCatalog?) => {
+  if (useMockData) {
+    const productDataRes = await fetch("mock/productDataMock.json");
+    const productDataMock = await productDataRes.json();
+    return productDataMock;
+  } else if (useMockCatalog) {
+    const productCatalogRes = await fetch("mock/productCatalogMock.json");
+    const productCatalogMock = await productCatalogRes.json();
+
+    const productData = await fetchProductPrices(productCatalogMock, MARKETS);
+    return productData;
+  } else {
+    const productCatalog = await fetchProductCatalog();
+    const productData = await fetchProductPrices(productCatalog, MARKETS);
+
+    return productData;
+  }
 };
