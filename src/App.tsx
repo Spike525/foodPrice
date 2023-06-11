@@ -1,14 +1,9 @@
 import React from "react";
+
 import ItemCart from "./components/ItemCart/ItemCart.tsx";
-import { MARKETS } from "./market.helper.js";
-import { fetchProductPrices } from "./fetchProducts.js";
+import { getProductData } from "./fetchProducts.ts";
 
-const productDataRes = await fetch("mock/productDataMock.json");
-const productDataMock = await productDataRes.json();
-const productCatalogRes = await fetch("mock/productCatalogMock.json");
-const productCatalogMock = await productCatalogRes.json()
-
-const productData = await fetchProductPrices(productCatalogMock, MARKETS);
+const productData = await getProductData();
 
 const App = () => {
   return (
